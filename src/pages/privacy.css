@@ -1,0 +1,39 @@
+.policy__title{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: var(--biggest-font-size);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+
+.Private {
+    padding: 1rem 10rem ;
+    margin: auto;
+    
+}
+
+b{
+    padding:  1rem 10rem;
+    margin: auto;
+}
+
+.policy__content{
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .Private,
+    b,
+    .policy__title{
+        padding: 1rem 1rem;
+    }
+}
+@media screen and (min-width: 550px) {
+    
+    .policy__title{
+        margin-left: 10%;
+    }
+}

@@ -1,0 +1,35 @@
+.preloader {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100%;
+    background: var(--bg-color);
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    color: white;
+    overflow: hidden !important;
+}
+.preloader .texts-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 20px;
+    overflow: hidden;
+    font-weight: 800;
+    opacity: 0;
+    color:var(--primary-color);
+}
+.preloader img{
+    width: 4rem;
+    border-radius: 50%;
+    height: 4rem;
+}
+
